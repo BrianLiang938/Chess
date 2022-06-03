@@ -27,6 +27,7 @@ public class MovePlate : MonoBehaviour
             GameObject cp = controller.GetComponent<Game>().GetPosition(matrixX, matrixY);
             Destroy(cp);
         }
+        
 
         controller.GetComponent<Game>().SetPositionEmpty(reference.GetComponent<Piece>().GetXBoard(), reference.GetComponent<Piece>().GetYBoard());
 
