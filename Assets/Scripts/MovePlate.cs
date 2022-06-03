@@ -28,7 +28,6 @@ public class MovePlate : MonoBehaviour
             Destroy(cp);
         }
         
-
         controller.GetComponent<Game>().SetPositionEmpty(reference.GetComponent<Piece>().GetXBoard(), reference.GetComponent<Piece>().GetYBoard());
 
         reference.GetComponent<Piece>().SetXBoard(matrixX);
@@ -52,5 +51,4 @@ public class MovePlate : MonoBehaviour
         return reference;
     }
 
-    public 
 }
