@@ -50,4 +50,6 @@ public class MovePlate : MonoBehaviour
     public GameObject GetReference() {
         return reference;
     }
+
+    public 
 }
